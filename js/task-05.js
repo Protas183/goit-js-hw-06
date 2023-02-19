@@ -7,7 +7,7 @@ const refs = {
 refs.name.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
-    refs.nameLabel.textContent = event.currentTarget.value;    
+    refs.nameLabel.textContent = event.currentTarget.value;  
     
 };
 
